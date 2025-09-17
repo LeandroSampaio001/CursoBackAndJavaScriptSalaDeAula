@@ -40,9 +40,9 @@ class Moto implements IVeiculo {
   }
 }
 const meuCarro = new Carro("Toyota", "Corolla");
-meuCarro.ligar();      // O carro Toyota Corolla está ligado.
-meuCarro.desligar();   // O carro Toyota Corolla foi desligado.
+meuCarro.ligar();      
+meuCarro.desligar();   
 
 const minhaMoto = new Moto("Honda", "CB 500F");
-minhaMoto.ligar();     // A moto Honda CB 500F está ronronando!
-minhaMoto.desligar();  // A moto Honda CB 500F foi desligada com estilo.
+minhaMoto.ligar();     
+minhaMoto.desligar();  
